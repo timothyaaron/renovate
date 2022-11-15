@@ -51,7 +51,6 @@ const updatedGemfileLock = {
 
 describe('modules/manager/bundler/artifacts', () => {
   beforeEach(() => {
-    jest.resetAllMocks();
     jest.resetModules();
 
     delete process.env.GEM_HOME;
